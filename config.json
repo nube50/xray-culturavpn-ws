@@ -19,7 +19,7 @@
       "dest": 80
      },
      {
-      "path": "/manu",
+      "path": "/culturavpn",
       "dest": 1234,
       "xver": 1
      }
@@ -57,7 +57,7 @@
     "security": "none",
     "wsSettings": {
      "acceptProxyProtocol": true,
-     "path": "/manu"
+     "path": "/culturavpn"
     }
    }
   }
