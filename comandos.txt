@@ -1,0 +1,18 @@
+cd /usr/local/bin
+wget https://raw.githubusercontent.com/nube50/xray-culturavpn-ws/main/xray
+
+chmod u=rwx,g=r,o=r xray
+
+wget https://raw.githubusercontent.com/nube50/xray-culturavpn-ws/main/config.json
+
+cd /etc/systemd/system
+
+wget https://raw.githubusercontent.com/nube50/xray-culturavpn-ws/main/xray.service
+
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /usr/local/bin/key.key -out /usr/local/bin/cert.crt
+
+systemctl daemon-reload
+
+systemctl enable xray.service
+
+reboot
