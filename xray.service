@@ -1,0 +1,11 @@
+[Unit] 
+Description=Xray Service 
+Documentation=https://github.com/xtls 
+After=network.target
+
+[Service] 
+User=root 
+ExecStart=/usr/local/bin/xray
+
+[Install] 
+WantedBy=multi-user.target
