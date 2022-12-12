@@ -19,7 +19,7 @@
       "dest": 80
      },
      {
-      "path": "/jm",
+      "path": "/cultura",
       "dest": 1234,
       "xver": 1
      }
@@ -57,7 +57,7 @@
     "security": "none",
     "wsSettings": {
      "acceptProxyProtocol": true,
-     "path": "/jm"
+     "path": "/cultura"
     }
    }
   }
