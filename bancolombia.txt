@@ -1,3 +1,4 @@
+Www39.todo1.com
 puntosdeatencionprod.bancolombia.com
 baas-waf.apps.bancolombia.com
 gw-otras-funciones-de-apoyo.apps.bancolombia.com
